@@ -1,6 +1,7 @@
-# Hangry
+# Hunger-Pants
 
-Hangry is a full-stack web application built using the MERN (MongoDB, Express.js, React, Node.js) stack. It aims to provide users with a smooth and interactive experience to explore and order food when they're feeling "hangry" (hungry + angry).
+# Hunger-Pants
+ is a full-stack web application built using the MERN (MongoDB, Express.js, React, Node.js) stack. It aims to provide users with a smooth and interactive experience to explore and order food when they're feeling "hangry" (hungry + angry).
 
 ## Tech Stack
 
@@ -18,18 +19,11 @@ Hangry is a full-stack web application built using the MERN (MongoDB, Express.js
 
 ## Table of Contents
 
-- [Live Link](#live-link)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 
-## Live-Link
 
-- You can view the live link [here.](https://hangry-frontend.onrender.com/)
+
 
 ## Features
 
@@ -48,89 +42,6 @@ Hangry is a full-stack web application built using the MERN (MongoDB, Express.js
 - **Authentication**: JWT (JSON Web Tokens)
 - **UI Library**: Material-UI / Bootstrap (mention if any)
 
-## Installation
 
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/aayushai/Hangry.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd Hangry
-    ```
-
-3. Install dependencies for both frontend and backend:
-
-    ```bash
-    # Install backend dependencies
-    cd backend
-    npm install
-    
-    # Install frontend dependencies
-    cd ../frontend
-    npm install
-    ```
-
-4. Set up environment variables:
-
-    - Create a `.env` file in the `backend` folder and configure the following variables:
-      ```bash
-      MONGO_URI=<your-mongo-db-uri>
-      JWT_SECRET=<your-jwt-secret>
-      ```
-
-5. Run the application:
-
-    - Start the backend:
-      ```bash
-      cd backend
-      npm run dev
-      ```
-
-    - Start the frontend:
-      ```bash
-      cd ../frontend
-      npm start
-      ```
-
-    The app should now be running on `http://localhost:3000`.
-
-## Usage
-
-- Register or login to your account.
-- Browse food categories and add items to your cart.
-- Review and place orders.
-- View and manage your profile and order history.
-
-## API Endpoints
-
-Here are some key API endpoints for the backend (located in the `backend/routes` folder):
-
-- **User Routes**:
-  - `POST /api/users/login`: User login.
-  - `POST /api/users/register`: User registration.
-  
-- **Food Routes**:
-  - `GET /api/food`: Get all food items.
-  - `POST /api/food`: Add a new food item (Admin only).
-
-- **Order Routes**:
-  - `POST /api/orders`: Create a new order.
-  - `GET /api/orders/:id`: Get order by ID.
-
-## Contributing
-
-If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a pull request.
-
-## License
 
 This project is licensed under the MIT License.
